@@ -85,7 +85,7 @@ figure #lightbulbOn {
 }
 
 #subSwitchDiv #buttonOn:checked{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 #subSwitchDiv #buttonOff {
