@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#contentDiv {
+    width: 25%;
+    height: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+figure #lightbulbOff {
+    width: 100%;
+    height: fit-content;
+}
+
+figure #lightbulbOn {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#switchDiv {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#subSwitchDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#subSwitchDiv button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-width: 0;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+#subSwitchDiv button:hover {
+    transform: scale(1.3);
+}
+
+#subSwitchDiv #buttonOn {
+    background-color: rgb(7, 138, 7);
+    color: #ffffff;
+}
+
+#subSwitchDiv #buttonOn:checked{
+    transform: scale(1.3);
+}
+
+#subSwitchDiv #buttonOff {
+    background-color: rgb(223, 45, 45);
+    color: #ffffff;
+}

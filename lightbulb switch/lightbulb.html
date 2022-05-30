@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb Switch</title>
+    <link rel="stylesheet" href="lightbulb.css">
+</head>
+<body>
+    <main>
+        <div id="contentDiv">
+            <figure>
+                <img src="lightbulb_off.png" alt="lightbulb off" id="lightbulbOff">
+                <img src="lightbulb_on.png" alt="lightbulb on" id="lightbulbOn">
+            </figure>
+            <div id="switchDiv">
+                <div id="subSwitchDiv">
+                    <button type="button" id="buttonOn" onclick="document.getElementById('lightbulbOff').src='lightbulb_on.png' ">on</button>
+                    <button type="button" id="buttonOff"  onclick=" document.getElementById('lightbulbOff').src='lightbulb_off.png' ">off</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
